@@ -18,6 +18,11 @@ if __name__ == '__main__':
     print(lucimar.idade)
     for filho in lucimar.filhos:
         print(filho.nome)
+    lucimar.sobrenome = 'Barros'
+    del lucimar.filhos
+    print(lucimar.__dict__)
+    print(maxwell.__dict__)
+
 
 
 
